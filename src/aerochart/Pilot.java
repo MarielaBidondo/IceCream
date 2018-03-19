@@ -10,18 +10,13 @@ package aerochart;
  * @author Mari
  */
 public class Pilot{
-    
     private String name;
     private int license;
     private int rate;
     
     public Pilot (String name, int license, int rate){
-        
         this.name = name;
         this.license = license;
         this.rate = rate;
-
-}
-     
-    
+    }   
 }

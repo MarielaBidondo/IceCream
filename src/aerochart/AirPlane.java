@@ -9,18 +9,15 @@ package aerochart;
  *
  * @author Mari
  */
-public class AirPlane {
-    
+public class AirPlane {  
     private String model;
     private String make;
     private int capacity;
   
-    public AirPlane (String model, String make, int capacity){
+    public AirPlane (String model, String make, int capacity){   
+        this.model = model;
+        this.make = make;
+        this.capacity = capacity;
         
-     this.model = model;
-     this.make = make;
-     this.capacity = capacity;
-    
-        }
-    
+    }  
 }

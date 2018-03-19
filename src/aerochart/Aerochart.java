@@ -34,13 +34,7 @@ public class Aerochart {
 // getPilot() – return (at a minimum) the pilot’s name
 // capacity() - return a number being the capacity of the airplane.
 
-
-
-
-
+   
         
-        
-        
-    }
-    
+    }    
 }
