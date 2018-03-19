@@ -18,8 +18,6 @@ public class Flight {
      private int d_time; //isnt int check it out and epoch as well!!!!!!
      private int a_time;
      private Date date; //??
-     
-     
 
      public Flight(String orig, String dest, int d_time,int a_time, Date date){
          this.orig = orig;
