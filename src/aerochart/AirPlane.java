@@ -13,9 +13,7 @@ public class AirPlane {
     private String model;
     private String make;
     private int capacity;
-    private String Color;
     
-  
     public AirPlane (String model, String make, int capacity){   
         this.model = model;
         this.make = make;
