@@ -1,0 +1,19 @@
+antes de empezar a trabajar en un project
+project\git pull 
+actualiza tu repositorio
+
+Clonar repositorio:
+git clone url repositoro(pagar directo de pag)
+
+Checkear estado del repositorio:
+git status
+
+0 git diff archivo (checkear cambios q fueron hechos en el doc)
+optional 
+
+1 git add archivo
+  git add -A (agregar todos los archivos cambiado a el commit)
+
+2 git commit -m "mensaje de commit"
+
+3 git push
