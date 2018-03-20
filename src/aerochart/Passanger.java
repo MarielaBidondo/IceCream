@@ -12,6 +12,5 @@ package aerochart;
 public class Passanger {
     private String name;
     private String doc;
-    private int DOB;
-    
+    private int DOB;   
 }
