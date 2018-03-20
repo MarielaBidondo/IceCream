@@ -17,7 +17,17 @@ public class AirPlane {
     public AirPlane (String model, String make, int capacity){   
         this.model = model;
         this.make = make;
-        this.capacity = capacity;
-        
+        this.capacity = capacity;   
     }  
+    
+    public String getMake(){  // return a string with the make of the airplane
+        return make;
+    }
+    public String getModel(){  // getModel() – return a number being the airplane’s model
+        return model;
+    }
+     public int getCapacity(){ // capacity() - return a number being the capacity of the airplane.
+        return capacity;
+    }
+
 }

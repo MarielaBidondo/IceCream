@@ -27,14 +27,6 @@ public class Aerochart {
 //Aircraft : <<insert make>> <<insert model>>
 //Capacity: ___ seats
 //Pilot: _____
-
-
-//getMake() – return a string with the make of the airplane
-// getModel() – return a number being the airplane’s model
-// getPilot() – return (at a minimum) the pilot’s name
-// capacity() - return a number being the capacity of the airplane.
-
-   
-        
+       
     }    
 }

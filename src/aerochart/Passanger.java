@@ -13,4 +13,10 @@ public class Passanger {
     private String name;
     private String doc;
     private int DOB;   
+    
+    public Passanger (String name, String doc, int DOB){   
+        this.name = name;
+        this.doc = doc;
+        this.DOB = DOB;   
+    }  
 }

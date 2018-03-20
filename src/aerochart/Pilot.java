@@ -18,5 +18,9 @@ public class Pilot{
         this.name = name;
         this.license = license;
         this.rate = rate;
-    }   
+    } 
+    
+    public String getPilot(){//– return (at a minimum) the pilot’s name
+        return name;
+    } 
 }

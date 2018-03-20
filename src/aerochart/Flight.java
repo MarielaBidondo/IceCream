@@ -25,9 +25,8 @@ public class Flight {
          this.d_time = d_time;
          this.a_time = a_time;
          this.date = date;
-     
-     }
-     
+    }
+}
      
 //aircraft assigned (this should be an object);
-}
+
