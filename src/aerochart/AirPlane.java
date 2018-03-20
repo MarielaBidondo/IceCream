@@ -23,10 +23,12 @@ public class AirPlane {
     public String getMake(){  // return a string with the make of the airplane
         return make;
     }
+    
     public String getModel(){  // getModel() – return a number being the airplane’s model
         return model;
     }
-     public int getCapacity(){ // capacity() - return a number being the capacity of the airplane.
+    
+    public int getCapacity(){ // capacity() - return a number being the capacity of the airplane.
         return capacity;
     }
 
