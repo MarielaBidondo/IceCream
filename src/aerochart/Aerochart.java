@@ -21,7 +21,7 @@ public class Aerochart {
         
         System.out.println("Fligth Information:");
         
-        System.out.print("g".getClassFlightNo());
+        System.out.print("g".getFlightNo());
         
         
 //         A toString() method which should return a string with the format:
