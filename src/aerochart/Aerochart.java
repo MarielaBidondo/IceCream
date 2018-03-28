@@ -1,14 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package aerochart;
 
 /**
- *
- * @author Mari
- */
+* <h1>Aerochart</h1>
+* The Aerochart program implements an application that
+*  output 5 flights on the screen.
+* <p>
+*
+* @author  Mariela Bidondo, Eduardo Firinio, Leticia Sessa
+* @version 1.0
+* @since   30/03/2018
+*/
 public class Aerochart {
 
     /**
@@ -16,6 +18,10 @@ public class Aerochart {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        System.out.println("Fligth Information:");
+        
+        System.out.print("g".getClassFlightNo());
         
         
 //         A toString() method which should return a string with the format:

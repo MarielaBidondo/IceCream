@@ -1,8 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* <h1>Passanger</h1>
+* The Passanger class define the object passanger  
+* <p>
+*
+* @author  Mariela Bidondo, Eduardo Firinio, Leticia Sessa
+* @version 1.0
+* @since   30/03/2018
+*/
 package aerochart;
 
 /**
@@ -19,4 +23,6 @@ public class Passanger {
         this.doc = doc;
         this.DOB = DOB;   
     }  
+    
+    
 }

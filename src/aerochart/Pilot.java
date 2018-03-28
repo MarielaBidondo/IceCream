@@ -22,5 +22,12 @@ public class Pilot{
     
     public String getPilot(){//– return (at a minimum) the pilot’s name
         return name;
-    } 
+    }
+      
+     public String toString(){
+            return name + ", rate: " + rate;
+        }
+   
 }
+
+

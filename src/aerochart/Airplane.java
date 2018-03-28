@@ -1,23 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package aerochart;
 
 /**
- *
- * @author Mari
- */
-public class AirPlane {  
+* <h1>Pilot</h1>
+* * The Pilot class define the object pilot. 
+* 
+* <p>
+*
+* @author  Mariela Bidondo, Eduardo Firinio, Leticia Sessa
+* @version 1.0
+* @since   30/03/2018
+*/
+public class Airplane {  
     private String model;
     private String make;
     private int capacity;
+    private Pilot pilot;
     
-    public AirPlane (String model, String make, int capacity){   
+    public Airplane (String model, String make, int capacity, Pilot pilot){   
         this.model = model;
         this.make = make;
-        this.capacity = capacity;   
+        this.capacity = capacity;
+        this.pilot = pilot;
     }  
     
     public String getMake(){  // return a string with the make of the airplane
@@ -30,6 +34,10 @@ public class AirPlane {
     
     public int getCapacity(){ // capacity() - return a number being the capacity of the airplane.
         return capacity;
+    }
+    
+    public Pilot getPilot() { //getPilot() return the pilot info
+        return pilot;
     }
 
 }
