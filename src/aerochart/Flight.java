@@ -49,9 +49,6 @@ public class Flight {
     }
     
     
-    
-    
-    
 }
      
 //aircraft assigned (this should be an object);
