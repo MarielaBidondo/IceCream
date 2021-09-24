@@ -1,4 +1,4 @@
-# IceCream
+# IceCream / AeroChart on Java
 $project
 ========
 
